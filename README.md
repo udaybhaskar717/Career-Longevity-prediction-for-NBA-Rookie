@@ -1,7 +1,8 @@
 # Career-Longevity-prediction-for-NBA-Rookie
 
 1. Understand the Problem Statement and Import the Packages and Datasets
-2. Perform EDA (Exploratory Data Analysis) – Understanding the Datasets.
+2. Perform EDA (Exploratory Data Analysis) – Understanding the Datasets:
+    Collected the train and test data set from Dphi
 3. Explore Train and Test Data and get to know what each Column / Feature denotes. 
 4. Check for Imbalance of Target Column in Datasets
 5. Check for Duplicate Rows from Train Data
