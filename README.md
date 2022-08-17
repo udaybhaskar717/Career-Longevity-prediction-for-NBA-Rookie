@@ -1,15 +1,53 @@
 # Career-Longevity-prediction-for-NBA-Rookie
+Import Libr
+Imported necessary libraries
+## Introduction
 
-1. Understand the Problem Statement and Import the Packages and Datasets
-2. Perform EDA (Exploratory Data Analysis) – Understanding the Datasets:
-    Collected the train and test data set from Dphi
-3. Explore Train and Test Data and get to know what each Column / Feature denotes. 
-4. Check for Imbalance of Target Column in Datasets
-5. Check for Duplicate Rows from Train Data
-6. Fill/Impute Missing Values – Continuous – Mean/Median/Any Specific Value | Categorical – Others/ForwardFill/BackFill
-7. Feature Engineering – Feature Selection – Selection of Most Important Existing Features | Feature Creation or Binning  – Creation of New Feature(s) from the Existing Feature(s)
-8. Split Train Data into Features(Independent Variables) | Target(Dependent Variable)
-9. Data Encoding – Label Encoding, One-Hot Encoding | Data Scaling – MinMaxScaler, StandardScaler, RobustScaler
-10. Create Baseline Machine Learning Model for the Binary Classification problem
-11. Ensemble with Voting Classifier to Improve the Evaluation Metric “F1-Score” and Predict Target “is_promoted”
-12. Result Submission, Check Leaderboard, and Improve “F1-Score”
+The National Basketball Association (NBA) is a professional basketball league in North America. The league is composed of 30 teams (29 in the United States and 1 in Canada) and is one of the four major professional sports leagues in the United States and Canada. It is the premier men's professional basketball league in the world.
+Career longevity is dependent on various factors for any players in all the games and so for NBA Rookies. The factors like games played, count of games played, and other statistics of the player during the game.
+## Objective
+Using machine learning techniques determine if a player’s career will flourish or not
+## Data
+The dataset contains player statistics for NRB Rookies. There are 1100+ observations in the train dataset with 19 variables excluding the target variable (i.e. Target).
+
+GP: Games Played (here you might find some values in decimal, consider them to be the floor integer, for example, if the value is 12.789, the number of games played by the player is 12
+
+The values for given attributes are averaged over all the games played by players
+
+MIN:  Minutes Played
+
+PTS: Number of points per game
+
+FGM: Field goals made
+
+FGA: Field goals attempt
+
+FG%: field goals percent
+
+3P Made: 3 point made
+
+3PA: 3 points attempt
+
+3P%: 3 point percent
+
+FTM: Free throw made
+
+FTA: Free throw attempts
+
+FT%: Free throw percent
+
+OREB: Offensive rebounds
+
+DREB: Defensive rebounds
+
+REB: Rebounds
+
+AST: Assists
+
+STL: Steals
+
+BLK: Blocks
+
+TOV: Turnovers
+
+Target: 0 if career years played < 5, 1 if career years played >= 5
