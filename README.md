@@ -183,4 +183,4 @@ Max Voting using Voting Classifier: Max voting method is generally used for clas
 Example: If we ask 5 of our Readers to rate this Article (out of 5): We’ll assume three of them rated it as 5 while two of them gave it a 4. Since the majority gave a rating of 5, the final rating of this article will be taken as 5 out of 5. You can consider this similar to taking the mode of all the predictions.
 
 Soft Voting : In soft voting, the output class is the prediction based on the average of probability given to that class.
-Improved F1-score to 0.7 
+**Improved F1-score to 0.7** 
